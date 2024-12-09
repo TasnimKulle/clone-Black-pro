@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+   background-image: url('	https://demo.tagdiv.com/newspaper_black_pro/wp-content/uploads/2019/11/17-9-1068x609.jpg');
+   color: #fff;
+}
+.navbar .logo{
+    display: flex;
+    flex-direction: column;
+}
+.navbar .logo h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 31px;
+    color: #fff;
+}
+.navbar .logo p{
+    color: #767676;
+    font-size:12px;
+    line-height: 12px;
+    font-weight: 400;
+}
+.navbarLinks{
+    list-style: none;
+    display: flex;
+    gap: 1.8em;
+}
+.navbarLinks li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbarLinks li a:hover{
+    color: #ffa301;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1.5em;
+}
+.icons i{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 33px;
+    font-style: italic;
+
+}
