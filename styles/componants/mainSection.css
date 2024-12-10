@@ -1,16 +1,46 @@
-.MainSection{
+.MainSection {
   margin-top: 2.5rem;
 }
-.grid-container{
-    margin-top: 2.5rem;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
+.grid-container {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
-.grid-container div{
-    background-color: rgb(201, 7, 7);
-    padding: 20px;
+.blogs {
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
-.blogs{
-    grid-column: 1 / span 3 ;
+.blog {
+  display: flex;
+  gap: 1.5rem;
+}
+.blog img {
+  width: 360px;
+  height: 250px;
+}
+.blocg-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.blocg-desc h1 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #fff;
+}
+.blocg-desc p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #767676;
+}
+.blocg-desc .timeBtn {
+  padding: 0;
+}
+.ads{
+    background-color: #767676;
 }

@@ -83,22 +83,20 @@
     font-weight: 500;
     color: #fff;
 }
-.hero div{
+.timeBtn{
     display: flex;
-    justify-content:center;
-    align-items: center;
     gap: 1.5rem;
 }
-.hero div .smallBtn{
+.timeBtn .smallBtn{
     background-color: #ffa301;
     color: #230e00;
-    font-size: 0.813rem;
-    line-height:0.813rem;
+    font-size: 0.75rem;
+    line-height:0.75rem;
     padding: 0.3rem;
     font-weight: 700;
     border: none;
 }
-.hero div p{
+.timeBtn p{
     color: #fffcfc80;
     font-weight: 700;
     font-size:0.688rem;
