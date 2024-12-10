@@ -1,0 +1,16 @@
+.MainSection{
+  margin-top: 2.5rem;
+}
+.grid-container{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.grid-container div{
+    background-color: rgb(201, 7, 7);
+    padding: 20px;
+}
+.blogs{
+    grid-column: 1 / span 3 ;
+}
