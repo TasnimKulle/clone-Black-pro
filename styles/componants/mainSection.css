@@ -68,3 +68,61 @@
   color: #fff;
   font-size: 1rem;
 }
+.ads .weather .location{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.ads .weather .location .locationName{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.ads .weather .location .locationName h1{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.ads .weather .location .locationName p{
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #999;
+}
+.ads .weather .location i{
+  color: #999;
+}
+.ads .weather .weatherStage{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+.ads .weather .weatherStage i{
+  font-size: 2.5rem;
+  color: #999;
+ 
+}
+.ads .weather .weatherStage h2{
+  font-size: 2.5rem;
+}
+.ads .weather .hum{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1.5rem;
+}
+.ads .weather .hum span{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 0.2rem;
+  
+}
+.ads .weather .days{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#0f0f0f;
+  padding: 0.5rem;
+}
