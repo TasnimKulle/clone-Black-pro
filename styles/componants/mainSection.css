@@ -1,5 +1,6 @@
 .MainSection {
-  margin-top: 2.5rem;
+  border-top: 1px solid  #989898;
+  padding: 10px;
 }
 .grid-container {
   margin-top: 2.5rem;
@@ -225,5 +226,45 @@
   line-height: 11px;
   font-weight: 700;
   color: #767676;
-  
 }
+/* Section EnterTainment  */
+.entrSection {
+  border-top: 1px solid  #989898;
+  margin-top: 20px;
+  padding: 10px;
+}
+ .entrSection h1{
+  color: #fff;
+  padding: 10px;
+  
+ }
+.entrSection div{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+
+}
+.entrSection div .enterpromt{
+  display: flex;
+  flex-direction: column;
+  color: #fff
+}
+.enterpromt img{
+  width: 100%;
+}
+.enterpromt .desc{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.enterpromt .desc h1{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #fff;
+}
+/* .enterpromt .desc .timeBtn{
+display: flex;
+justify-content: center;
+text-align: center;
+} */
