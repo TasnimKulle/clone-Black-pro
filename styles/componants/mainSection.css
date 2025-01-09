@@ -53,6 +53,7 @@
   border: 1px solid #eee;
  border-radius: 8px;
  color: #fff;
+ position: relative;
 }
 .search{
  width: 240px;
@@ -68,6 +69,13 @@
 .ads fieldset i{
   color: #fff;
   font-size: 1rem;
+  /* background-color: RED; */
+  position: absolute;
+  right:0;
+  top: 8px;
+  padding: 5px;
+  text-align: center;
+ 
 }
 .ads .weather{
   display: flex;
