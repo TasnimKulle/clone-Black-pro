@@ -49,13 +49,45 @@
 @media (max-width: 768px) {
     .container{
         max-width: 640px;
+        width: 100%;
+    }
+
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+      padding:0 0 0 10px;
+      background-color: black;
+    }
+    .toggle-button{
+      display: flex;
+    }
+    .navbarLinks{
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 1;
+    }
+    .navbarLinks li:last-child{
+      margin: 0;
+      padding: 0;
+    }
+   .navbar .navbarLinks{
+      flex-direction: column;
+      width: 100%;
+    }
+    .navbarLinks li{
+      text-align: center;
+    }
+    .navbarLinks a{
+      padding: 0;
+      line-height: 10px;
+    }
+    .navbar.active .navbarLinks{
+      max-height: 300px;
+      opacity: 1;
     }
     .wrapImage{
-        max-width: 640px;
-    }
-    .navbar{
-       width: 100%;
-       scroll-behavior:smooth;
+        max-width: 100%;
     }
     .search {
         width: 100%;
